@@ -1,0 +1,6 @@
+[Unit]
+Description=System Maintenance Service
+
+[Service]
+Type=oneshot
+ExecStart=/usr/local/bin/system_maintenance.sh
