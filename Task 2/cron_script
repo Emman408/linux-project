@@ -1,0 +1,2 @@
+# Run system maintenance script at 03:00 every day
+0 3 * * * /usr/local/bin/system_maintenance.sh
