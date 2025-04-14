@@ -1,0 +1,9 @@
+sudo tee /etc/fail2ban/jail.local > /dev/null <<'EOF'
+[sshd]
+enabled = true
+port    = ssh
+filter  = sshd
+logpath = /var/log/auth.log
+maxretry = 5
+bantime  = 3600
+EOF
