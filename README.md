@@ -1,4 +1,3 @@
-
 # Linux Server Automation, Security & Monitoring
 
 This repository contains all scripts and configuration files developed for the “Automating, Securing, and Managing a Linux Server for Enterprise Operations” project. Each top‑level folder corresponds to one of the project tasks.
@@ -24,6 +23,11 @@ This repository contains all scripts and configuration files developed for the �
   Task 4 – Log Analysis & Forwarding  
   - `extract_logs.sh`: Extracts failed SSH logins, service failures, and reboots from remote logs.
 
+- **[Task_5_nginx/](https://github.com/Emman408/linux-project/tree/main/Task_5_nginx)**  
+  Task 5 – Service Deployment & Hardening  
+  - `nginx.conf`: Main Nginx configuration file.  
+  - **Firewall rules** captured in screenshots or as UFW/firewalld commands.
+
 - **[Task 6/](https://github.com/Emman408/linux-project/tree/main/Task%206)**  
   Task 6 – Monitoring & Reporting  
   - `health_check.sh`: Generates a health report (uptime, CPU/memory, disk, recent logins) and optionally sends alerts.
@@ -36,3 +40,12 @@ This repository contains all scripts and configuration files developed for the �
   Bonus Challenge – Containerization & SSH Hardening  
   - `docker.sh`: Script to install Docker CE and run a test container.  
   - `fail2ban.local`: fail2ban jail configuration to ban repeated SSH failures.
+
+---
+
+## How to Use
+
+1. **Clone** the repo:  
+   ```bash
+   git clone https://github.com/Emman408/linux-project.git
+   cd linux-project
